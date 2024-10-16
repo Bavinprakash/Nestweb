@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SFO Technologies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom Styles */
+    .navbar-custom {
+      background-color: #0099cc;
+    }
+    .navbar-custom .nav-link {
+      color: white;
+      padding: 10px 15px;
+    }
+    .navbar-custom .nav-link:hover {
+      background-color: #007299;
+    }
+    .hero {
+      position: relative;
+      background: url('https://sfotechnologies.net/images/innerslider/ngroup-overview.jpg') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+    }
+    .breadcrumb-section {
+      background-color: #f8f9fa;
+      padding: 10px;
+    }
+    .button-nav .nav-link {
+      margin: 5px;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .button-nav .nav-link:hover {
+      background-color: #0056b3;
+    }
+    .content {
+      padding: 30px;
+    }
+
+
+    /* Custom Styles */
+    .parallax-section {
+      background-image: url('https://th.bing.com/th/id/OIP.Bsy9EBct6U2QgTE6P0HqywHaE7?w=272&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7'); /* Replace with the actual image path */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      padding: 100px 0;
+      position: relative;
+    }
+
+    .parallax-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      z-index: 1;
+    }
+
+    .parallax-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .parallax-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .parallax-text {
+      font-size: 1.2rem;
+      margin: 20px 0;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .read-more-btn {
+      font-size: 1.1rem;
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      color: #003366;
+      border: none;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .read-more-btn:hover {
+      background-color: #e6b800;
+      color: white;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">SFO Technologies</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">ODM Plus Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>About Us</h1>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-section">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">About Us</a></li>
+          <li class="breadcrumb-item active" aria-current="page">NeST Group</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Button Navigation -->
+  <div class="container button-nav">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About SFO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Vision & Values</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NeST Group</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Leadership</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Facilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Awards</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Customers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CSR/Sustainability</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">What's New</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-primary" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container content">
+    <h2>NeST Group</h2>
+    <p>The NeST Group of Companies, with our headquarters at Kochi (Cochin), Kerala, India, has grown from our humble inception in 1990 as a single manufacturing plant, to being a diversified conglomerate with a global footprint and multi-domain expertise...</p>
+  </div>
+
+  <!-- Parallax Section -->
+  <section class="parallax-section">
+    <div class="container parallax-content">
+      <h1 class="parallax-title">ODM Plus Solutions</h1>
+      <p class="parallax-text">
+        SFO Technologies offer flexible, Low/Medium/High Mix, High Volume/High Complexity, Build-to-Spec/Build-to-Print
+        solutions delivered under the same roof that makes the monitoring and management of your product lifecycle far simpler.
+        In the last quarter century, SFO has been delivering Electronics Manufacturing Services (EMS) and Original Design Manufacturing (ODM) solutions.
+        The industry itself has morphed through several iterations, and SFO has zealously kept pace, incorporating
+        Manufacturing 4.0 technologies as new peaks of excellence are conquered each day in delivering quality and customer satisfaction.
+      </p>
+      <a href="#" class="btn read-more-btn">Read More</a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
